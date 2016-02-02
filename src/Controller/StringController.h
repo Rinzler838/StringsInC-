@@ -14,9 +14,9 @@ using namespace std;
 class StringController
 {
 private:
-	string  word;
+	string word = NULL;
 	int length;
-	string blank;
+	string blank = "";
 	string substrToEnd;
 	string substrStartToEnd;
 	string ctec;
