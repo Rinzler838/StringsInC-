@@ -39,7 +39,7 @@ void StringController :: start()
 
 	//2 .at(int)
 	cout << "Type in the location of the letter y in the string: " << word << endl;
- 	if (word.at(4).compare("y") == 0)
+ 	if (word.at[4].compare("y") == 0)
  	{
  		cout << "The letter y is at position 4" << endl;
  	}
